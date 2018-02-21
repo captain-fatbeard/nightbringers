@@ -1,7 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+
+import Masthead from './components/Masthead';
+import Content from './components/Content';
+import './styles/App.css';
+
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <Masthead />
+    </div>
+    , document.getElementById('root')
+);
+
 registerServiceWorker();

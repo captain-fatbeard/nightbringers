@@ -1,8 +1,23 @@
+html, body {
+  height: 100%; }
+
 body {
   background-color: black;
-  color: whitesmoke; }
+  color: whitesmoke;
+  margin: 0; }
 
-.logo {
-  display: block;
-  max-width: 1000px;
-  margin: auto; }
+/*================================
+section
+==================================*/
+section {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0px;
+  grid-auto-rows: 50%;
+  grid-template-areas: ". a a ." ". a a ."; }
+  section .center {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+    max-width: 1000px; }

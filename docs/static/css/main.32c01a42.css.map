@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles/App.css"],"names":[],"mappings":"AAAA,KACE,sBACA,aAAkB,CAEpB,MACE,cACA,iBACA,WAAa","file":"static/css/main.32c01a42.css","sourcesContent":["body {\n  background-color: black;\n  color: whitesmoke; }\n\n.logo {\n  display: block;\n  max-width: 1000px;\n  margin: auto; }\n\n\n\n// WEBPACK FOOTER //\n// ./src/styles/App.css"],"sourceRoot":""}

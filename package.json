@@ -9,6 +9,7 @@
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
   },
+  "homepage" : "https://coonicon.github.io/nightbringers/",
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
